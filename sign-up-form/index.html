@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <script src="scripts/index.js"></script>
+  </head>
+  <body class="inter">
+    <main class="main">
+      <h1 class="h1">New Account</h1>
+      <form action="" class="form">
+        <label for="input-name" class="form__label"> Name </label>
+        <input
+          type="text"
+          placeholder="Patrick Star"
+          name="input-name"
+          id="input-name"
+          class="form__input"
+        />
+        <label for="input-email" class="form__label">
+          Email
+          <span class="form__asterisc">*</span>
+        </label>
+        <input
+          type="email"
+          placeholder="patrick@yazoo.com"
+          name="input-email"
+          id="input-email"
+          class="form__input"
+          required
+        />
+        <label for="input-password" class="form__label">
+          Password
+          <span class="form__asterisc">*</span>
+        </label>
+        <input
+          type="password"
+          placeholder="Password"
+          name="input-password"
+          id="input-password"
+          class="form__input"
+          minlength="12"
+          required
+        />
+        <label for="input-password-confirm" class="form__label-error">Minimum length: 12 characters</label>
+        <label for="input-password-confirm" class="form__label">
+          Confirm password
+          <span class="form__asterisc">*</span>
+        </label>
+        <input
+          type="password"
+          placeholder="Confirm password"
+          name="input-password-confirm"
+          id="input-password-confirm"
+          class="form__input"
+          minlength="12"
+          required
+        />
+        <label for="input-password-confirm" class="form__label-error">Minimum length: 12 characters</label>
+        <button class="form__button-submit" id="button-submit">
+          Create Account
+        </button>
+        <a href="" class="form__button-link">
+          Already have an account? Sign In
+        </a>
+      </form>
+    </main>
+  </body>
+</html>
