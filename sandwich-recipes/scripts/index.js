@@ -34,22 +34,22 @@
                 />${recipe.calories} cal</span
               >
             </div>
-            <div class="card__buttons">
-              <button class="card__button roboto-regular">
-                <img
-                  src="images/heart.svg"
-                  alt="Like image"
-                  class="card__button__image"
-                />Like
-              </button>
-              <button class="card__button roboto-regular">
-                <img
-                  src="images/share.svg"
-                  alt="Share image"
-                  class="card__button__image"
-                />Share
-              </button>
-            </div>
+          </div>
+          <div class="card__buttons">
+            <button class="card__button roboto-regular">
+              <img
+                src="images/heart.svg"
+                alt="Like image"
+                class="card__button__image"
+              />Like
+            </button>
+            <button class="card__button roboto-regular">
+              <img
+                src="images/share.svg"
+                alt="Share image"
+                class="card__button__image"
+              />Share
+            </button>
           </div>
         </div>
         `;
