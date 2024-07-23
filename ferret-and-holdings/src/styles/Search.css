@@ -1,4 +1,26 @@
 .search {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  font-size: small;
+  grid-area: c;
+}
+
+.search__input {
+  border: 1px solid var(--color-palette-3);
+  background-color: var(--color-palette-1);
+  padding: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  width: 100%;
+  letter-spacing: 1px;
+  color: var(--color-palette-2);
+}
+
+.search__button {
+  border: 0;
+  background-color: var(--color-palette-3);
+  color: var(--color-palette-2);
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 0 10px;
 }

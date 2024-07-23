@@ -8,6 +8,7 @@
   height: var(--header-height);
   background-color: var(--color-palette-1);
   padding: 10px;
+  gap: 10px;
 }
 
 .header__logo {
@@ -16,11 +17,13 @@
   font-weight: 600;
   letter-spacing: 3px;
   color: var(--font-color-light-1);
+  grid-area: a;
 }
 
 .header__hamburger-menu {
   height: 45px;
   width: 45px;
+  grid-area: b;
 }
 
 .header__hamburger-menu path {

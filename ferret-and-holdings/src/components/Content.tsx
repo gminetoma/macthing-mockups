@@ -1,3 +1,5 @@
+import "../styles/Content.css"
+
 const Content = () => {
   return (
     <>
