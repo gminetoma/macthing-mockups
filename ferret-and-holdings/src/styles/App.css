@@ -1,0 +1,13 @@
+:root {
+  --color-palette-1: rgb(0, 0, 0);
+  --color-palette-2: rgb(238, 238, 238);
+
+  --font-color-light-1: rgb(255, 255, 255);
+  --font-color-light-2: rgb(153, 153, 153);
+  --font-color-dark-1: rgb(0, 0, 0);
+  --font-color-dark-2: rgb(136, 136, 136);
+
+  --button-color-dark: rgb(85, 85, 85);
+
+  --header-height: auto;
+}

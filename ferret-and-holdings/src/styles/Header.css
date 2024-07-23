@@ -1,0 +1,28 @@
+.header {
+  display: grid;
+  grid-template:
+    "a b" min-content
+    "c c" min-content;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  background-color: var(--color-palette-1);
+  padding: 10px;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: large;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--font-color-light-1);
+}
+
+.header__hamburger-menu {
+  height: 45px;
+  width: 45px;
+}
+
+.header__hamburger-menu path {
+  stroke: var(--color-palette-2);
+}
